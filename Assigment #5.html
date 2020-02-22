@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <title>Assigment 5</title>
+</head>
+
+<body>
+    <form action="process.js" method="POST">
+        <h1><strong>&nbsp;Addmision Form</strong></h1>
+        <p>&nbsp; Enter your addmission information below & Fill out the form carefully before submit</p>
+        <hr>
+        <p><strong>Student Name:</strong> <input type="text" name="studFirstName" size="15" maxlength="20" placeholder="first name">
+        <input type="text" name="studLastName" size="20" maxlength="15" placeholder="last name"></p>
+        <p><strong>Birth Date:</strong> <input type="date" name="studDob"></p>
+        <p><strong>Gender:</strong>
+        <select name="studGender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select></p>
+        <div><strong>Address:</strong> <input type="text" name="studAddress" size="30" placeholder="current residential address"> <br> <br> &nbsp; &nbsp;
+        <input type="text" name="studCity" size="15" placeholder="City"> <input type="text" name="studState" size="16" placeholder="Province/State"></div>
+        <p><strong>E-mail:</strong> <input type="email" name="studEmail" size="30" placeholder="ex: myname@example.com"></p>
+        <p><strong>Mobile Number:</strong> <input type="text" size="15" placeholder="+923*********"></p>
+        <p><strong>Phone Number:</strong> <input type="text" size="15" ></p>
+        <p><strong>Course:</strong> 
+        <select name="studCourse">
+            <option value="web & mob app">Web & Mobile Application Developer</option>
+            <option value="robortics">Robotics</option>
+            <option value="ai">Artificial Intelligence</option>
+            <option value="iot">Internet Of Things</option>
+            <option value="bc">Blockchain</option>
+        </select></p>
+        <p><strong>Student Comment Area</strong><br>
+        <textarea name="studComment" cols="40" rows="8" placeholder="Enter your comment here"></textarea></p>
+        &nbsp; &nbsp;<button type="submit">Submit Application</button>
+    </form>
+</body>
+
+</html>
