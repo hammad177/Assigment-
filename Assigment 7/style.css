@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    letter-spacing: 0.18em;
+    text-decoration: underline;
+}
+
+.country{
+    border-collapse: collapse;
+    width: 600px;
+    margin: auto;
+}
+
+.country th, .country td{
+    border: 1px solid #c7c7c7;
+    padding: 13px;
+}
+
+.country tr:nth-child(even){
+    background-color: #dddddd;
+}
+
+.country th{
+    background-color: #1d3891;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+
+.sNo{
+    text-align: center;
+}
+
+.font{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
