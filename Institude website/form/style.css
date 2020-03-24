@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+    /* Background image */
+img{
+    position: absolute;
+    height: 110%;
+    width: 100%;
+    top: 0px;
+    z-index: -1;
+}
+    /* Form heading */
+header> h1{
+    margin-top: 10px;
+    color: black;
+    font-size: 38px;
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 0.05em;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+    /* Form paragraph */
+header> p{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 0.07em;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+    /* Form Setting */
+.studForm{
+    margin-left: 50px;
+    color : whitesmoke;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+    /* all input type style */
+p> input{
+    width: 173px;
+    background-color: #f0f0f0;
+    border-radius: 3px;
+    padding: 5px 10px;
+    outline: none;
+    border: 2px solid darkgrey;
+}
+    /* textarea style */
+textarea{
+    background-color: #ffffff;
+    border: 2px solid darkgrey;
+    border-radius: 3px;
+    padding-left: 8px;
+    font-size: 15px;
+    height: 100px;
+    width: 350px;
+    outline: none;
+    resize: none;
+    margin-top: 10px;
+}
+    /* Foucs form input textarea gender courses */
+p> input:focus, textarea:focus, .gender> select:focus, .course> select:focus{
+    background-color: #ffffff;
+    border: 2px solid lightslategray;
+    
+}
+    /* Email width */
+input[type="email"]{
+    width: 250px;
+}
+    /* Address width */
+input[placeholder$="address"]{
+    width: 285px;
+}
+    /* course & gender style */
+.gender> select, .course> select{
+    width: fit-content;
+    padding: 4px 9px;
+    border-radius: 3px;
+    outline: none;
+    border: 2px solid darkgrey;
+    background-color: #f0f0f0;
+}
+    /* Button style */
+button{
+    position: absolute;
+    bottom: -30px;
+    left: 450px;
+    width: 170px;
+    height: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px 10px;
+    font-size: large;
+    border: 2px solid #919191;
+    border-radius: 10px;
+    color: #111111;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    background-color: #d6d6d6;
+}
+    /* Mouseover button */
+button:hover{
+    background-color: #f9f9f9;
+    border: 3px solid #999999;
+    color: #212121;
+    box-shadow: 5px 5px 10px black;
+    cursor: pointer;
+}

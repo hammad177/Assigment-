@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Online Form</title>
+</head>
+<body>
+    <img src="../acctes/form-background.jpg" alt="form background image">
+    <header> 
+    <h1>Institude Addmission Form</h1>
+    <p>Enter your Addmission information below & Fill out form carefully before submit</p>
+    </header>
+
+    <div class="studForm">
+        <form action="process.js" method="POST">
+            <p>Student Name: <input type="text" placeholder="First Name"> <input type="text" placeholder="Last Name"></p>
+            <p>Father Name: <input type="text" placeholder="First Name"> <input type="text" placeholder="Last Name"></p>
+            <p>Student birth date: <input type="date"></p>
+            <p class="gender">Gender:
+                <select>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </p>
+            <p>Address: <input type="text" placeholder="Current residential address"></p>
+            <p><input type="text" placeholder="City"> <input type="text" placeholder="Province/State"></p>
+            <p>Mobile Number: <input type="text" placeholder="+923*********"></p>
+            <p>Email Address: <input type="email" placeholder="ex: myname@example.com"></p>
+            <p class="course">Courses:
+                <select>
+                    <option value="web & mob app">Web & Mobile Application Development</option>
+                    <option value="robortics">Robotics</option>
+                    <option value="ai">Artificial Intelligence</option>
+                    <option value="iot">Internet Of Things</option>
+                    <option value="bc">Blockchain</option>
+                </select>
+            </p>
+            <p>Student Comment Area: <br> <textarea placeholder="Enter your comment here"></textarea></p>
+            <button type="submit">Submit Form</button>
+        </form>
+    </div>
+</body>
+</html>
